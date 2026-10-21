@@ -1,0 +1,2 @@
+# CPUSOL
+Mining headless
