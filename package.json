@@ -1,0 +1,16 @@
+{
+  "name": "cpucoinsol-webminer-headless",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Explicitly opt-in headless runner for the CPUCoinSol web miner",
+  "main": "webminer-headless.js",
+  "scripts": {
+    "webminer": "node webminer-headless.js --confirm"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
